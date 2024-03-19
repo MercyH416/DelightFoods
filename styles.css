@@ -1,0 +1,311 @@
+
+@import url('https://fonts.cdnfonts.com/css/agbalumo');                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    border-bottom: 1px solid #E2E8F0 ;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 1.5rem;
+}
+.hamburger{
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    margin-left: 5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #475569;
+}
+.nav-link:hover{
+    color: #9e1111;
+}
+.nav-logo{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #9e1111;
+}
+.imgBackground{
+    height: 45.5rem;
+    width: 100%;
+    background-image:url('R.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.introBody{
+    width: auto;
+    max-width: 600px;
+    float: right;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.secondIntro{
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+.thirdIntro{
+    font-size: 60px;
+    color: red;
+    font-weight: 900;
+}
+.note{
+    color: #000000;
+    margin: 20px 0;
+}
+.order{
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    background: #9e1111;
+    color: #fff;
+}
+.order p {
+text-align: center;
+}
+.chef-ground{
+    margin-top: 100px;
+}
+.meals-cover{
+    display: flex;
+}
+.meals{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+.food-cover{
+    width: 200px;
+    height: 250px;
+    background: #E2E8F0;
+    margin: 10px 0;
+    text-align: center;
+    box-shadow:  0 10px 27px rgba(0, 0, 0, 0.2);;
+}
+.food{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px
+}
+.food-name{
+margin: 10px 0;
+font-weight: 700;
+font-family: 'Agbalumo', sans-serif;
+}
+.price-box{
+width: 100px;
+height: auto;
+padding: 5px;
+border-radius: 10px;
+background: #9e1111;
+margin-left: 50px;
+}
+.price {
+color: #fff;
+}
+h1{
+text-align: center;
+font-family: 'Wedding Invitation', sans-serif;
+font-size: 70px;
+color: #9e1111; 
+}
+
+article{
+max-width: 1000px;
+margin: auto;
+font-family: 'Agbalumo', sans-serif;
+font-size: 20px;
+word-spacing: 5px;
+}
+article .Large{
+font-size: 40px;
+font-weight: 800;
+}
+.paraTwo{
+margin: 10px 0;
+}
+footer{
+width: 100%;
+bottom: 0;
+background: #9e1111;
+color: white;
+font-family: 'Agbalumo', sans-serif;
+}
+.sub-note{
+   font-size: 3.0rem;
+    font-weight: 500;
+}
+.contact-intro{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+border-bottom: 1px solid #475569;
+}
+.intro-sub2 ul li{
+display: inline-block;
+margin-left: 10px;
+}
+.intro-sub2 .approach:hover{
+    padding: 5px;
+    background: #fff;
+    color: #9e1111;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+.contact-middle{
+padding: 10px;
+border-bottom: 1px solid #475569;
+}
+.first-note{
+margin: 40px 0;
+}
+.con-note{
+font-size: 60px;
+}
+.main-point{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.chop-box{
+width: 350px;
+}
+.con-note i {
+transform: rotate(45deg);
+}
+h3{
+font-size: 40px;
+border-bottom: 1px solid #475569;
+margin: 20px 0;
+padding: 10px;
+}
+.main-list{
+width: 300px;
+}
+.contact-box{
+display: flex;
+justify-content: space-between;
+margin: 10px 0;
+border-bottom: 1px solid #475569;
+}
+.our-contact{
+margin: 15px 0;
+}
+.contact-box i{
+margin: 15px 0;
+}
+h4{
+font-size: 50px;
+margin: 20px 0;
+}
+#email{
+width: 300px;
+background: none;
+border: none;
+border-bottom: 1px solid #475569;
+}
+.button{
+background-color: transparent;
+border: none;
+color: #fff;
+}
+
+.button i {
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px){
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .introBody{
+        max-width: 500px;
+        }
+    .chef{
+        display: none;
+    }
+    article{
+    max-width: 500px;
+    }
+    #email{
+    width: 100px;
+    }
+}
